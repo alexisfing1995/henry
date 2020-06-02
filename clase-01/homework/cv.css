@@ -1,0 +1,22 @@
+img{
+    width: 230px;
+    height: 230px;
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+#datosPersonales{
+    display: block;
+    position: relative;
+    left: 200px;
+    width: 500;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+div{
+    position: relative;
+    left: 200px;
+    width: 900px;
+}

@@ -1,18 +1,38 @@
-
+body
+{
+    background-image: url(./fondo.jpg);
+}
 h1{ color: tomato;}
-img{width: 400px}
+img{
+    width: 400px;
+    float: right;
+}
 #thirdDiv
 { 
-    width: 500px;
+    width: 800px;
     height: 600px;
-    background-color: olivedrab;
+    background-color: rgb(246, 246, 243);
     padding: 50px;
     border-width: 25px;
-    border-color: rgb(122, 42, 33);
+    border-color: rgb(228, 234, 236);
     border-style: solid;
 }
 #spanId
 {
     font-size: 18px;
     margin: 50px;
+}
+div
+{
+    background-color: yellow;
+    max-width: 600px;
+    border-width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    box-sizing: border-box;
+}
+.divClass
+{
+    text-align: center;
 }
